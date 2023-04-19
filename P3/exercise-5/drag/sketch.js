@@ -7,15 +7,15 @@ function setup() {
 
     //as long as you add the class "dragme" to the image, it should work.
 
-    iris = createImg('images/iris.png')
+    iris = createImg('images/bagle.jpg')
     iris.position(700, 300);
     iris.class('dragme')
 
-    violet = createImg('images/violet.png')
+    violet = createImg('images/blueberry.png')
     violet.position(700, 300);
     violet.class('dragme')
 
-    jasmine = createImg('images/jasmine.png')
+    jasmine = createImg('images/banana.jpg')
     jasmine.position(700, 300);
     jasmine.class('dragme')
 
@@ -23,7 +23,7 @@ function setup() {
   }
   
   function draw() {
-    background(0);
+    background(230, 253, 230);
 
   }
   
