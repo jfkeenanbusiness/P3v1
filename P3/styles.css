@@ -1,0 +1,26 @@
+@import url("https://use.typekit.net/yoh3hby.css");
+
+body{
+    background-color: rgb(250, 72, 2);
+    color: white;
+    
+}
+
+/* This allows you to be able to position html elements starting from the top left instead of displaying as block under p5.js canvas */
+#html-body{
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+html, body {
+    margin: 0 !important;
+    padding: 0 !important;
+}
+
+html {
+font-family: "lores-9-wide-bold-alt-oaklan", sans-serif;
+font-weight: 400;
+font-style: normal;
+}
+
